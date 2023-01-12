@@ -3,7 +3,7 @@ sample test
 """
 from django.test import SimpleTestCase
 
-from app import calc 
+from app import calc
 
 
 class calcTests(SimpleTestCase):
@@ -15,7 +15,7 @@ class calcTests(SimpleTestCase):
 
         self.assertEqual(res, 11)
 
-    def test_subtract_numbers(self): 
+    def test_subtract_numbers(self):
         """test subtracting numbers together"""
         res = calc.subtract(10, 5)
 
