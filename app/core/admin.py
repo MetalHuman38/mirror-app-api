@@ -36,10 +36,11 @@ class UserAdmin(BaseUserAdmin):
                 'password2',
                 'name',
                 'is_active',
-                'is_superuser'
-              )
-          }),
-        )
+                'is_staff',
+                'is_superuser',
+            )
+        }),
+    )
 
 
 admin.site.register(models.User, UserAdmin)
