@@ -18,9 +18,9 @@ class UserAdmin(BaseUserAdmin):
           _('Permissions'),
           {
               'fields': (
-                'is_active',
-                'is_staff',
-                'is_superuser',
+                  'is_active',
+                  'is_staff',
+                  'is_superuser',
               )
             }
           ),
